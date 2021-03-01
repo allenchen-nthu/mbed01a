@@ -3,8 +3,6 @@
 DigitalOut myLED(LED1);
 DigitalOut myLED2(LED3);
 
-//void Led(DigitalOut &ledpin);
-
 int main()
 {
    myLED = 1;
@@ -21,7 +19,5 @@ int main()
          myLED2 = !myLED2;
          ThisThread::sleep_for(100ms);
       }
-      //Led(myLED);
-      //Led(myLED2);
    }
 }
